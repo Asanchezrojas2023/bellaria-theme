@@ -14,6 +14,17 @@ h1{
     text-align: center;
 }
 
+section hgroup {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+section img {
+    max-width: 150px;
+}
+
 @media (min-width: 567px){
     h1 { 
         font-size: 32px;
@@ -74,6 +85,7 @@ h1{
 .main-content .container :not( p ){
     color: green;
 }
+
 
 
 
