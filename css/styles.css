@@ -4,9 +4,23 @@
     box-sizing: border-box; 
 }
 
+/** tags*/
 body{
     margin: 0;
 }
+
+h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+@media (min-width: 567px){
+    h1 { 
+        font-size: 32px;
+        text-align: left;
+    }
+}
+/* id*/
 
 /*Mobile firts */
 .container{
@@ -56,6 +70,10 @@ body{
     }
 }  
 
+/*: NOT Excluye la equeta P, debe ser aplicada a la etiqueta padre*/
+.main-content .container :not( p ){
+    color: green;
+}
 
 
 
