@@ -1,0 +1,64 @@
+
+* { 
+    border: 1px dotted red;
+    box-sizing: border-box; 
+}
+
+body{
+    margin: 0;
+}
+
+/*Mobile firts */
+.container{
+    /*Mobile*/
+
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+
+}
+
+@media ( min-width: 480px ){
+    .container {
+        max-width: 451px;
+    }
+}
+
+
+/*establece breakpoint para el siguiente dispositivo con ancho de mas de 567*/
+@media ( min-width: 567px ){
+    .container {
+        max-width: 540px;
+    }
+}
+
+
+@media ( min-width: 768px) {
+    .container{
+        max-width: 720px;
+    }
+}  
+@media ( min-width: 992px) {
+    .container{
+        max-width: 960px;
+    }
+}  
+
+@media ( min-width: 1200px) {
+    .container{
+        max-width: 1140px;
+    }
+}  
+
+@media ( min-width: 1400x) {
+    .container{
+        max-width: 1320px;
+    }
+}  
+
+
+
+
+
+
+
