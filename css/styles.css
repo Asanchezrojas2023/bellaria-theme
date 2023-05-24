@@ -1,7 +1,12 @@
 
+
+
+
+
 * { 
     border: 1px dotted red;
     box-sizing: border-box; 
+    
 }
 
 /** tags*/
@@ -12,17 +17,25 @@ body{
 h1{
     font-size: 36px;
     text-align: center;
+    
 }
+ h2{
+    font-size: 40px;
+    font-family: Merienda One;
+
+}
+
 
 section hgroup {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+    
 }
 
 section img {
-    max-width: 150px;
+    max-width: 180px;
 }
 
 @media (min-width: 567px){
@@ -40,9 +53,11 @@ section img {
     max-width: 100%;
     padding: 0 20px;
     margin: 0 auto;
-
-}
-
+    
+    
+    }
+      
+    
 @media ( min-width: 480px ){
     .container {
         max-width: 451px;
@@ -83,12 +98,65 @@ section img {
 
 /*: NOT Excluye la equeta P, debe ser aplicada a la etiqueta padre*/
 .main-content .container :not( p ){
-    color: green;
+    color:black;
+    font-family: 'Merienda', cursive;
+
 }
 
+.card {
+    flex-basis: 24%;
+}
 
+.titulo-torta {
+    font-size: 2.2rem;
+    text-align: center;
+}
+.image-torta {
+    max-width: 90%;
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+}
 
+section.container.section.our-creations {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+    background-color: #5fcac7;
+    color: white;
+    gap: 1rem;
+    }
 
+    
+.container.spikes {
+    position: relative;
+    background: #2c3e50;
+    height: 50vh;
+  }
+  
+  .spikes::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    left: -0%;
+    top: 100%;
+    z-index: 10;
+    display: block;
+    height: 50px;
+    background-size: 50px 100%;
+    background-image: linear-gradient(135deg, #2c3e50 25%, transparent 25%), linear-gradient(225deg, #2c3e50 25%, transparent 25%);
+    background-position: 0 0;
+  }
+
+.flavors {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.flavor-item {
+    border-bottom: 1px solid #5fcac7;
+}
 
 
 
