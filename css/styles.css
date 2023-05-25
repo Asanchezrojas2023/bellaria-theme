@@ -108,14 +108,12 @@ section img {
 }
 
 .titulo-torta {
-    font-size: 2.2rem;
+    font-size: 2.7rem;
     text-align: center;
 }
 .image-torta {
     max-width: 90%;
     width: 100%;
-    height: 15rem;
-    object-fit: cover;
 }
 
 section.container.section.our-creations {
@@ -158,5 +156,43 @@ li.flavor-item {
     border-bottom: 1px solid #5fcac7;
 }
 
+image-toreno{
+    img 
+        margin-top: auto;
+        max-width: 20rem;
+
+   
+    
+}
+.imgRedonda {
+    width:200px;
+    height:200px;
+    border-radius:100px;
+      
+}
 
 
+#tercio {
+    display: inline-block;
+}
+
+#aureola{
+    height: 180px;
+    width: 250px;
+ }
+
+ #foto{
+    position: absolute;
+    top: 20px;
+    left: 77px; /* Ajuste */
+ }
+ #logotoreno{
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 250px;
+    text-align: center;
+ }
+ 
+
+    
